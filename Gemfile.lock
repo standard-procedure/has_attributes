@@ -3,7 +3,6 @@ PATH
   specs:
     has_attributes (0.1.0)
       activesupport (>= 7.1)
-      standard_procedure_global_id_serialiser
 
 GEM
   remote: https://rubygems.org/
@@ -203,6 +202,7 @@ DEPENDENCIES
   rspec (~> 3.0)
   sqlite3
   standard (~> 1.3)
+  standard_procedure_global_id_serialiser
 
 BUNDLED WITH
    2.6.2

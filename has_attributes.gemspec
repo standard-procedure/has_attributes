@@ -34,7 +34,6 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "activesupport", ">= 7.1"
-  spec.add_dependency "standard_procedure_global_id_serialiser"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

@@ -16,7 +16,7 @@ RSpec.describe HasAttributes do
       # standard:disable Lint/ConstantDefinitionInBlock
       class Item < ActiveRecord::Base
         include HasAttributes
-        serialize :data, type: Hash, coder: GlobalIdSerialiser
+        serialize :data, type: Hash, coder: JSON
 
         has_attribute :greeting, :string, default: "Hello"
         has_attribute :counter, :integer, default: 0
@@ -81,7 +81,7 @@ RSpec.describe HasAttributes do
       # standard:disable Lint/ConstantDefinitionInBlock
       class Item < ActiveRecord::Base
         include HasAttributes
-        serialize :meta_data, type: Hash, coder: GlobalIdSerialiser
+        serialize :meta_data, type: Hash, coder: JSON
 
         has_attribute :greeting, :string, default: "Hello", field_name: "meta_data"
         has_attribute :counter, :integer, default: 0, field_name: "meta_data"
