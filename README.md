@@ -28,6 +28,7 @@ Include the `HasAttributes` module, tell Rails to treat your field as a Hash tha
 
 ```ruby
 class MyItem < ApplicationRecord
+  include HasAttributes
   serialize :data, type: Hash, coder: JSON 
   has_attribute :name, :string
   validates :name, presence: true 
@@ -51,6 +52,7 @@ Include the `HasAttributes` module and define your attributes and models.
 
 ```ruby
 class MyItem < ApplicationRecord
+  include HasAttributes
   has_attribute :name, :string
   validates :name, presence: true 
   has_attribute :counter, :integer, default: 1 
