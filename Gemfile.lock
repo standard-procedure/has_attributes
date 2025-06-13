@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    has_attributes (0.1.0)
+    standard_procedure_has_attributes (0.1.0)
       activesupport (>= 7.1)
 
 GEM
@@ -197,12 +197,12 @@ DEPENDENCIES
   guard-bundler-audit
   guard-rspec
   guard-standardrb
-  has_attributes!
   rake (~> 13.0)
   rspec (~> 3.0)
   sqlite3
   standard (~> 1.3)
   standard_procedure_global_id_serialiser
+  standard_procedure_has_attributes!
 
 BUNDLED WITH
    2.6.2
