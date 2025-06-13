@@ -3,7 +3,7 @@
 require_relative "lib/has_attributes/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "has_attributes"
+  spec.name = "standard_procedure_has_attributes"
   spec.version = HasAttributes::VERSION
   spec.authors = ["Rahoul Baruah"]
   spec.email = ["rahoulb@echodek.co"]
